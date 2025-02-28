@@ -1,0 +1,95 @@
+/* :root{
+    font-size: 2px;
+} */
+
+/* CSS
+Cascading Style Sheets
+Hojas de estilo en cascada
+
+*/
+
+/* Selector de Etiqueta HTML */
+
+/* h1 {
+    /* Nombre : valor ; 
+    color: red;
+    text-align: center;
+    font-size: 60px;
+} */
+
+/* Selector por ID */
+
+/* #titulo_principal {
+    color: red;
+    text-align: center;
+    font-size: 60px;
+} */
+
+/* Selector de clases */
+
+/* #titulo_principal{
+    color: blue;
+}
+ 
+.titulo {
+    color: red!important;
+    text-align: center;
+    font-size: 60px;
+} */
+
+/* 
+etiqueta html 0 0 1
+class 0 1 0
+id 1 0 0
+important
+
+ */
+
+ /* .banner_conteiner > h2 {
+    color: red;
+ }
+
+ .banner_conteiner h2 {
+    font-size: 60px;
+ } */
+
+ .banner_conteiner {
+    background-color: black;
+    height: 250px;
+    color: white;
+    font-size: 20px;
+ }
+
+ .titulo{
+    font-size: 3em;
+ }
+
+ /* 
+ EM = Medida relativa, de el contenedor 
+ padre mas cercano que tenga tamaño de fuente
+ REM = Medida relativa, en base a la raiz / root */
+
+ /* 
+ Medidas absolutas = Una medida que no cambia
+  de acuerdo al entorno
+ Medidas relativas = Una medida que cambia 
+ de acuerdo al entorno
+ */
+ /* 
+ VH = View height el alto de la vista
+ VW = View Width el ancho de la vista */
+
+ .caja{
+    /* background-color: red; */
+    background-image: url(gatito.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -50px;
+    height: 50vw;
+    width: 50vw;
+ }
+
+ .caja > h1 {
+    color: white;
+    text-align: center;
+ }
